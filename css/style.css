@@ -5,7 +5,16 @@
  *
  * Made By MaterializeCSS.com
  */
-
+ @font-face {
+  font-family: lobster;
+  src: url('../Lobster-Regular.ttf');
+}
+.shadow{
+  text-shadow: 1px 2px 3px #666;
+}
+html{
+  font-family: lobster;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
