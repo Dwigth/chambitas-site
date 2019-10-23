@@ -1,15 +1,41 @@
 .parallax {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    z-index: -1;
+    /* Set a specific height */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.parallax-container {
-    min-height: 380px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255, 255, 255, 0.9);
+.img-1 {
+    background-image: url("../assets/fondos/plaza-de-armas.jpg");
+    height: 500px;
+    background-position: bottom;
+}
+
+.img-2 {
+    background-image: url("../assets/fondos/villahermosa.jpg");
+    height: 250px;
+    background-position: bottom;
+}
+
+.img-3 {
+    background-image: url("../assets/fondos/Centro-Historico-Villahermosa.jpg");
+    height: 400px;
+    background-position: top;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    width: 78% !important;
+}
+
+.chambita-navbar {
+    position: fixed !important;
+}
+
+.espacio {
+    height: 67px;
 }
