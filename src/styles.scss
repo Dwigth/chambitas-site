@@ -1,20 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
+    font-family: 'Roboto', sans-serif;
     font-family: Lobster;
     src: url(./assets/fonts/Lobster-Regular.ttf) format("truetype");
 }
 
+
 @import '~material-design-icons/iconfont/material-icons.css';
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
-// body {
-//     background-color: #42d5ff;
-//     color: white;
-// }
-
-// .text-secondary {
-//     color: white !important;
-// }
 
 .chambitaFont {
     font-family: Lobster;
@@ -22,4 +16,30 @@
 
 .bg-azulChambita {
     background-color: #42d5ff;
+}
+
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        font-size: 1rem !important;
+    }
+
+    h5 {
+        font-size: .75rem !important;
+    }
+
+    label {
+        font-size: .5rem;
+    }
 }

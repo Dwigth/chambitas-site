@@ -9,15 +9,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'tuchambita';
 
-
-  scroll(seccion) {
-    let elemento = document.getElementById(seccion);
-
-    if (seccion) {
-      elemento.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-
-  }
-
 }
 

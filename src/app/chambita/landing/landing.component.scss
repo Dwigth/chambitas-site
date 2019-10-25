@@ -1,0 +1,70 @@
+.parallax {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1 {
+    background-image: url("../../../assets/fondos/plaza-de-armas.jpg");
+    height: 500px;
+    background-position: bottom;
+}
+
+.img-2 {
+    background-image: url("../../../assets/fondos/Centro-Historico-Villahermosa.jpg");
+    height: 400px;
+    background-position: top;
+}
+
+.espacio {
+    height: 61px;
+}
+
+.icon-desc {
+    font-size: 3.5rem;
+}
+
+.icon-social {
+    font-size: 2.5rem;
+}
+
+.scale {
+    transition: all .2s ease-in-out;
+}
+
+.scale:hover {
+    transform: scale(1.08);
+}
+
+.title-desc {
+    height: 80px;
+}
+
+.bg-transparent {
+    background-color: #0000007a !important;
+    height: 100%;
+}
+
+.iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.terminos {
+    text-decoration-line: underline;
+}
+
+@media (max-width: 767.98px) {
+    .icon-social {
+        font-size: 1.5rem;
+    }
+
+    .iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
