@@ -7,13 +7,14 @@
 .img-1 {
     background-image: url("../../../assets/img/fondos/landing.png");
     height: 500px;
-    background-position: bottom;
+    background-position: top;
 }
 
 .img-2 {
     background-image: url("../../../assets/img/fondos/landing.png");
     height: 400px;
-    background-position: top;
+    background-position: bottom;
+    background-position-y: -80px;
 }
 
 .espacio {
